@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  background: #aee3f5;
+  color: hsl(223, 27%, 65%);
+}
+
+.fullcard {
+  background: hsl(225, 100%, 98%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+  padding-bottom: 20px; 
+  display: grid;
+  width: 310px;
+
+}
+#img {
+  /* padding: 0 -90px; */
+  width: 310px;
+  border-radius: 20px 20px 0 0;
+}
+
+h2 { 
+  text-align:center;
+  color: black;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  /* font-family: cursive; */
+  /* margin-bottom: .35rem; */
+  /* padding: .5rem 1.5rem; */
+}
+.p {
+  text-align: center;
+  color:hsl(223, 27%, 65%);
+  font-size: 14px;
+  font-weight: 600;
+  padding: 0rem 1rem;
+}
+.icon-money-change {
+  display: flex;
+  justify-content: space-between;
+  padding: 18px;
+  margin: 20px;
+  background-color: hsla(225, 18%, 57%, 0.082);
+  border-radius: 20px;
+}
+.icon {
+  width: 40px;
+}
+.change {
+  color: hsl(245, 75%, 52%);
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 16px;
+}
+.change:hover {
+  text-decoration: none;
+  color: hsl(224, 67%, 49%);
+}
+.money {
+  margin-left: -15px;
+}
+strong {
+  color: black;
+}
+
+button {
+  background-color: hsl(245, 75%, 52%);
+  color:hsl(225, 100%, 98%);
+  font-weight: bold;
+  /* cursor: pointer; */
+  border: none;
+  border-radius: 12px;
+  padding: .6rem 4rem;
+  margin-bottom: 1.2rem;
+  box-shadow: 0 17px 20px 0px hsla(254, 50%, 50%, 0.4);
+}
+button:hover{
+  cursor: pointer;
+  background-color:hsl(225, 70%, 60%);
+}
+.button-cancel {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+}
+.cancel {
+  font-size: 14px;
+  cursor: pointer;
+  text-decoration: none;
+  margin-bottom: .5rem;
+  color: gray;
+  font-weight: bold;
+  font-weight: 700;
+}
+.cancel:hover {
+  cursor: pointer;
+  color: hsl(223, 47%, 23%);
+}
+/* @media (min-width: 800px) */
